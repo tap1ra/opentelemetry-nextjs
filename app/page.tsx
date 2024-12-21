@@ -1,5 +1,3 @@
-import { trace } from '@opentelemetry/api';
-
 export default async function HomePage() {
   const data = await fetch('https://jsonplaceholder.typicode.com/posts').then((res) =>
     res.json()
